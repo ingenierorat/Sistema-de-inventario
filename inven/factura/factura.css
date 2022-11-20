@@ -1,0 +1,277 @@
+*{
+	margin: 0; 
+	padding: 0;   
+} 
+
+body{ 
+	font-family: Arial, Helvetica, Verdana;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#cfe7fa+0,6393c1+100;Grey+Blue+3D */
+	background-color: rgb(207,231,250); /* Old browsers */
+	background-color: -moz-linear-gradient(top,  rgba(207,231,250,1) 0%, rgba(99,147,193,1) 100%); /* FF3.6-15 */
+	background-color: -webkit-linear-gradient(top,  rgba(207,231,250,1) 0%,rgba(99,147,193,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background-color: linear-gradient(to bottom,  rgba(207,231,250,1) 0%,rgba(99,147,193,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cfe7fa', endColorstr='#6393c1',GradientType=0 ); /* IE6-9 */
+}
+
+div#contenedorGeneral{     
+	position: relative;		  
+	width: 950px; 
+	height: 600px;	
+	background-color: #D3D3D3;	
+	
+}
+
+#tb_detalle_factura{
+	position: relative;	
+	margin-left: 10px;
+	top: 10px;
+	border-collapse: collapse;
+}
+
+#lbl_opcion{
+	position: absolute;
+	display: inline-block;
+	top: 10px;
+	width: 120px;
+	height: 40px;
+	margin-left: 10px;		
+	font-size: 0.9em;	
+	padding-left: 2px;
+	
+	
+
+}
+#opcion{
+	position: relative;
+	top: 50px;
+	margin-left: 10px;
+}
+#buscar{
+	position: absolute;
+	margin-top: 30px;
+	margin-left: 220px;
+	width: 50px;	
+	box-sizing: border-box;
+	padding: 1px;
+}
+#txtbuscar{
+	position: relative;
+	top: 50px;
+	width: 100px;
+
+}
+#msj{
+	display: inline-block;
+	position: absolute;	
+	top: 55px;
+	font-size: 0.8em;
+	margin-left: 300px;
+	background-color: #D3D3D3;	
+	
+}
+
+/*Configuracioón de los campo detalles*/
+#fset_detalle_factura{
+	position: absolute;
+	top: 70px;
+	margin-left: 10px;
+	width: 900px;
+	height: 490px;
+	border-radius: 5px;
+}
+#inf_detalle_factura{
+	box-sizing:border-box;
+	padding: 0.5em;
+	font-size: 0.8em;
+}
+
+
+div#anterior{
+	position: relative;			
+	height: 17px;	
+	width: 60px;	
+	color: #2F4F4F;	
+	font-size: 0.7em;
+	top: 15px;	
+	text-align: center;	
+	margin-right: 5px;
+	border-radius: 1px;
+	background-color: #D3D3D3;
+}
+.flecha_anterior:after{
+	content:'\2039';
+	color: #2F4F4F;
+	margin-right: 1px;
+}
+div#anterior:hover{
+	color: #0000FF;
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+
+div#siguiente{
+	position: relative;	
+	top: 15px;
+	width: 60px;	
+	height: 17px;
+	text-align: center;	
+	color: #2F4F4F;	
+	font-size: 0.7em;
+	border-radius: 1px;
+	background-color: #D3D3D3;
+}
+.flecha_siguiente:after{
+	content:'\203A';
+	color: #2F4F4F;
+	margin-left: 1px;
+}
+div#siguiente:hover{
+	color: #0000FF;
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+
+
+
+/*Configuración de los encabezados*/
+#hid_factura{
+	width: 65px;
+	font-size: 0.8em;
+	font-style: bold;
+
+}
+#hcodigo_barra{
+	width: 80px;
+	font-size: 0.8em;
+	font-style: bold;
+	
+}
+#hnombre{
+	width: 144px;
+	font-size: 0.8em;
+	font-style: bold;
+	
+}
+#hprecio_venta{
+	width: 80px;
+	font-size: 0.8em;
+	font-style: bold;
+	
+}
+#hcantidad{
+	width: 60px;
+	font-size: 0.8em;
+	font-style: bold;
+	
+}
+#hitebis{
+	width: 45px;
+	font-size: 0.8em;
+	font-style: bold;
+	
+}
+#himporte{
+	width: 65px;
+	font-size: 0.8em;
+	font-style: bold;
+	
+}
+#hcliente{
+	width: 110px;
+	font-size: 0.8em;
+	font-style: bold;
+	
+}
+#hfecha{
+	width: 70px;
+	font-size: 0.8em;
+	font-style: bold;
+	
+}
+#hfactura{
+	width: 82px;
+	font-size: 0.8em;
+	font-style: bold;
+	
+}
+
+
+/*Configuración de las celdas*/
+#did_factura{
+	width: 65px;
+	font-size: 0.7em;	
+
+}
+#dcodigo_barra{
+	width: 80px;
+	font-size: 0.7em;	
+	
+}
+#dnombre{
+	width: 144px;
+	font-size: 0.7em;
+	
+	
+}
+#dprecio_venta{
+	width: 80px;
+	font-size: 0.7em;
+	
+	
+}
+#dcantidad{
+	width: 60px;
+	font-size: 0.7em;
+	
+	
+}
+#ditebis{
+	width: 45px;
+	font-size: 0.7em;	
+	
+}
+#dimporte{
+	width: 65px;
+	font-size: 0.7em;	
+	
+}
+#dcliente{
+	width: 110px;
+	font-size: 0.7em;	
+	
+}
+#dfecha{
+	width: 70px;
+	font-size: 0.7em;	
+	
+}
+#dfactura{
+	position: absolute;
+	top: 25px;
+	width: 60px;
+	font-size: 0.7em;	
+	height: 40px;	
+	margin-left: 760px;
+	font-family: Arial, Helvetica, Verdana;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#cfe7fa+0,6393c1+100;Grey+Blue+3D */
+	background-color: rgb(207,231,250); /* Old browsers */
+	background-color: -moz-linear-gradient(top,  rgba(207,231,250,1) 0%, rgba(99,147,193,1) 100%); /* FF3.6-15 */
+	background-color: -webkit-linear-gradient(top,  rgba(207,231,250,1) 0%,rgba(99,147,193,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background-color: linear-gradient(to bottom,  rgba(207,231,250,1) 0%,rgba(99,147,193,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cfe7fa', endColorstr='#6393c1',GradientType=0 ); /* IE6-9 */
+	box-sizing: border-box;
+	padding: 12px;
+	text-decoration: none; 
+	border: 1px solid white;
+
+}
+#dfactura:hover{
+	color: #0000FF;
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+
+

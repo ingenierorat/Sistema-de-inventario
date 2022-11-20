@@ -1,0 +1,314 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+ 
+body{     
+	font-family: Arial, Helvetica, Verdana;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#cfe7fa+0,6393c1+100;Grey+Blue+3D */
+	background-color: rgb(207,231,250); /* Old browsers */
+	background-color: -moz-linear-gradient(top,  rgba(207,231,250,1) 0%, rgba(99,147,193,1) 100%); /* FF3.6-15 */
+	background-color: -webkit-linear-gradient(top,  rgba(207,231,250,1) 0%,rgba(99,147,193,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background-color: linear-gradient(to bottom,  rgba(207,231,250,1) 0%,rgba(99,147,193,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cfe7fa', endColorstr='#6393c1',GradientType=0 ); /* IE6-9 */
+}
+
+/*Estilos para la cabecera de la página*/
+header{
+	position: relative; 
+	top: 5px; 
+	width: 97%;
+	height: 78px;
+	margin-left: 15px;	
+	border-radius: 2px;		
+	background-color: #D3D3D3;
+}
+
+/*Estilos para el contenedor general*/
+div#contenedorGeneral{
+	position: relative;
+	top: 5px;
+	width: 1200px;
+	height: 710px;	
+	margin-left: 20px;
+	background-color: #708090;
+	border-radius: 10px;
+	
+		
+}
+
+
+/* FECHA DEL SISTEMA*/
+div#fecha{
+	position: relative;
+	margin-right: 5px;
+	width: 230px;
+	height: 25px;
+	float: right;
+	font-size: .8em;
+	box-sizing: border-box;
+	padding: 0 10px;
+	line-height: 1.7em;	
+	color: white;	
+	top: 2px;
+	margin-bottom: 3px;
+	background-color: #708090;
+	
+}
+/* PANEL DE BIENVENIDA AL USUARIO LOGUADO*/
+div#panelUser{
+	position: relative;
+	clear: right;
+	width: 230px;
+	margin-right: 5px;
+	height: 46px;
+	float: right;	
+	top: 1px;
+	border-radius: 2px;
+	background-color: #708090;	
+}
+
+/* MENSAJE A MOSTRAR AL LOGUEARSE*/
+.bienvenido{
+	position: relative;
+	padding: 10px;
+	box-sizing:border-box;
+	top: 2px;
+	font-size: .8em;
+	color: white;
+}
+/* BUTTON DE CERRAR SESION*/
+.sesion{
+position: relative;
+display: block;
+color: white;
+width: 200px;
+height: 16px;
+font-size: .8em;
+padding:0 10px;
+box-sizing:border-box;
+top: 2px;
+
+}
+
+/* LINEA SEPARADORA DEL PANEL USUARIO*/
+.hr{
+	position: relative;
+	width: 90%;		
+    border-top: 1px dashed #000;
+    margin-left: 11px;
+	background-color: black;
+	top: 4px;
+	margin-bottom: 4px;	
+	
+}
+
+
+/*Estilos para el DIV a_menu*/
+#a_menu{
+	position: relative;
+	top: 15px;
+	width: 130px;
+	height: 65px;	
+	background-color: #708090;	
+	border-radius: 5px;
+	margin-left: 5px;
+
+}
+#a_inicio{
+	position: relative;
+	text-decoration: none;
+	display: block;	
+	width: 130px;
+	top: 8px;
+	font-size: 0.8em;
+	color: white;
+
+}
+#a_limpiar{
+	position: relative;
+	text-decoration: none;
+	display: block;	
+	width: 130px;
+	top: 12px;
+	font-size: 0.8em;
+	color: white;
+	
+}
+#a_inicio:hover{
+	color: #708090;	
+
+}
+#a_limpiar:hover{
+	color: #708090;	
+
+}
+.icon-home{	
+	margin-right: 10px;		
+
+}
+.icon-trash{	
+	margin-right: 10px;		
+
+}
+
+
+
+
+/*Estilos para el título menu*/
+div#tituloMenu{	
+	position: relative;
+	top: 58px;
+	width: 130px;
+	margin-left: 5px;			
+	color: white;	
+	background-color: #708090;	
+	border-radius: 2px;
+}
+#lbl_menu{	
+	margin-left: 10px;
+	font-size: 0.8em;
+
+}
+
+/*Estilos para para barra de navegación*/
+nav{
+	position: relative;
+	top: 10px;
+	width: 155px;	
+	height: 350px;
+	float: left;
+	margin-right: 5px;	
+	margin-left: 14px;
+	border-radius: 5px;
+	font-family: Arial, Helvetica, Verdana;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#cfe7fa+0,6393c1+100;Grey+Blue+3D */
+	background-color: rgb(207,231,250); /* Old browsers */
+	background-color: -moz-linear-gradient(top,  rgba(207,231,250,1) 0%, rgba(99,147,193,1) 100%); /* FF3.6-15 */
+	background-color: -webkit-linear-gradient(top,  rgba(207,231,250,1) 0%,rgba(99,147,193,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background-color: linear-gradient(to bottom,  rgba(207,231,250,1) 0%,rgba(99,147,193,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cfe7fa', endColorstr='#6393c1',GradientType=0 ); /* IE6-9 */ 
+		
+}
+
+/*Estilos para el frame de navegación*/
+iframe{
+	position: relative;
+	top: 10px;
+	width: 1005px;
+	height: 600px;	
+	background-color: #D3D3D3;	
+	border-radius: 5px;			
+	
+	
+}
+
+/* PIE DE PÁGINA DE LA PANTALLA PRINCIPAL*/
+footer{
+	position: relative;
+	top: 10px;
+	width: 1200px;
+	height: 23px;	
+	margin-left: 20px;
+	background-color: #D3D3D3;
+	border-radius: 5px;	
+}
+
+/* DERECHO DE AUTOR DE LAS DIFERENTES PANTALLAS A UTILIZAR*/
+div#copyright{
+	position: relative;
+	top: 2px;
+	width: 97%;
+	height: 19px;
+	font-size: 0.7em;
+	text-align: center;
+	color: #2F4F4F;
+	box-sizing:border-box;
+	padding: 4px;
+	margin: 0 auto;
+	background-color: #708090;
+
+
+}
+
+
+
+/* ESTILOS GENERALES*/
+nav ul{
+	position: relative;
+	top: 60px;
+	list-style: none;		
+	margin-left: 5px;
+	margin-right: 5px;
+
+	
+}
+
+nav ul li a{
+	position: relative;
+	margin-left: 5px;
+
+}
+
+nav li{
+	line-height: 1.7em;	
+	display: block;	
+	margin-bottom: 4px;		
+	background-color: #708090;	
+	width: 130px;
+
+}
+nav a{  
+
+  text-decoration: none;   
+  box-sizing: border-box;
+  padding: 0 0.2em;
+  font-size: 0.8em;  
+  color: white;  
+  font-weight: bold;  
+  display: block; 
+  width: 114px;
+  
+
+
+}
+nav a:hover{
+  background: #C0C0C0; 
+
+}
+nav ul ul{
+	position: relative;
+	display: none;
+	top: 5px;
+}
+
+
+/* ESTILOS DEL PRIMER NIVEL*/
+nav li .flecha:before{
+	content: '\203A';
+	float: right;
+	margin-right: 13px;
+	transform: rotate(90deg);
+}
+nav li:hover .flecha:before{
+	content: '\2039';
+	color: white;
+}
+nav > ul > li{	
+	border-radius: 2px;
+
+}
+
+
+/* ESTILOS DEL SEGUNDO NIVEL*/
+nav li ul li{
+	display: inline-block;
+	width: 120px;
+	background: #B0C4DE;
+}
+nav ul li ul a{	
+	color: white;
+	box-sizing: border-box;
+	padding: 0 .3em;
+	
+}

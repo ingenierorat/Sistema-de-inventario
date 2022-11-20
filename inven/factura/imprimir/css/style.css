@@ -1,0 +1,138 @@
+.clearfix:after { 
+  content: "";
+  display: table; 
+  clear: both; 
+}
+ 
+
+body {
+  position: relative;
+  width: 18cm;  
+  height: 15cm; 
+  margin: 0 auto; 
+  color: #001028;
+  background: #FFFFFF; 
+  font-family: Arial, sans-serif; 
+  font-size: 12px; 
+  font-family: Arial;
+}
+
+header {
+  padding: 10px 0;
+  margin-bottom: 30px;
+}
+
+#logo {  
+  margin-bottom: 10px;
+}
+
+#logo img {
+  width: 50%;
+}
+
+h1 {  
+  
+  width: 50%;  
+  border-top: 1px solid  #5D6975; 
+  border-bottom:  1px solid  #5D6975;
+  color: #5D6975;
+  font-size: 1em;
+  line-height: 1.4em;
+  font-weight: normal; 
+  padding-left: 5px;
+  background: url(../img/dimension.png);
+}
+
+
+#company{
+  width: 50%;
+  position: absolute;  
+  background: #F5F5F5;  
+  margin-bottom: -30px;
+  
+}
+#company .datos_company{  
+  width: 75%;  
+  padding-left: 5px;
+  font-size: 0.9em; 
+}
+
+
+table {    
+  width: 50%;
+  border-collapse: collapse;  
+  margin-bottom: 10px;  
+
+  
+}
+table #_nombre, #_precio, #_cantidad, #_itebis, #_importe{
+  font-size: 1em;
+  font-weight: bold;
+  text-align: left;
+
+}
+
+
+.dato_factura{   
+  font-size: 1em;
+  background: #F5F5F5;
+  width: 50%;
+  height: 80px;
+  box-sizing: border-box;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+table td.nombre,td.precio,td.cantidad,td.itebis,td.importe{
+  font-size: 1em;
+
+}
+table td.nombre{  
+  width: 144px;
+
+}
+table td.precio{  
+  width: 55px;
+}
+table td.cantidad{  
+  width: 35px;
+
+}
+table td.itebis{  
+  width: 35px;
+
+}
+table td.importe{
+   
+
+}
+
+
+
+.informacion{  
+  background: #F5F5F5;
+  width: 50%;
+}
+
+.informacion .texto1{
+  color: #5D6975;
+  font-size: 0.8em;
+  font-weight: bold;
+
+}
+.informacion .texto2{
+  color: #5D6975;
+  font-size: 0.9em;    
+}
+
+footer {
+  color: #5D6975;
+  width: 100%;
+  height: 30px;
+  position: absolute;
+  bottom: 0;
+  border-top: 1px solid #C1CED9;
+  padding: 8px 0;
+  text-align: center;
+  
+}

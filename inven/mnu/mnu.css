@@ -1,0 +1,238 @@
+ *{
+	margin: 0; 
+	padding: 0;   
+}
+
+/* CUERPO DE LA PANTALLA*/
+body{ 
+
+}
+/* CONTENEDOR GENERAL*/ 
+div#contenedorGeneral{   
+	position: relative;	
+	top: 1px;
+	width: 985px;
+	height: 580px;	
+	margin-left: 5px;
+	background-color: #708090;
+	border-radius: 5px;
+
+}
+/* ENCABEZADO DE LA APLICACIÓN*/
+header{
+	position: relative;
+	top: 10px; 
+	width: 700px;
+	height: 80px;
+	margin-left: 10px;	
+	border-radius: 2px;		
+	font-family: Arial, Helvetica, Verdana;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#cfe7fa+0,6393c1+100;Grey+Blue+3D */
+	background-color: rgb(207,231,250); /* Old browsers */
+	background-color: -moz-linear-gradient(top,  rgba(207,231,250,1) 0%, rgba(99,147,193,1) 100%); /* FF3.6-15 */
+	background-color: -webkit-linear-gradient(top,  rgba(207,231,250,1) 0%,rgba(99,147,193,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background-color: linear-gradient(to bottom,  rgba(207,231,250,1) 0%,rgba(99,147,193,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cfe7fa', endColorstr='#6393c1',GradientType=0 ); /* IE6-9 */
+	font-size: 2em;
+	box-sizing:border-box;
+	padding: 17px;
+	color: black;
+	border: 1px solid #a1a1a1;
+}
+
+
+/* LINEA SEPARADORA DEL PANEL USUARIO*/
+.hr{
+	position: relative;
+	width: 700px;			
+    border-top: 1px dashed #000;
+    margin-left: 10px;
+	background-color: black;
+	top: 30px;
+	
+}
+#consulta{
+	position: relative;
+	width: 200px;
+	height: 350px;
+	top: 45px;
+	margin-left: 10px;
+	box-sizing:border-box;
+	padding: 5px;
+	border: 1.5px solid white;
+	border-radius: 2px;
+	margin-right: 10px;
+	float: left;
+
+	
+}
+#titulo_consulta{
+	color: white;
+	box-sizing:border-box;
+	padding: 5px;
+	font-size: 1em;
+}
+
+
+#pro{
+	position: relative;
+	text-decoration: none;
+	display: block;
+	width: 85px;
+	height: 25px;
+	margin-left: 5px;
+	top: 10px;
+	font-size: 1em;	
+	color: white;	
+	border-radius: 5px;
+	box-sizing: border-box;
+	padding: 3px;	
+	transition-property:width;
+	transition-duration:0.2s;
+	
+}
+#cli{
+	position: relative;
+	text-decoration: none;
+	display: block;
+	width: 85px;
+	height: 25px;
+	margin-left: 5px;
+	top: 12px;
+	font-size: 1em;		
+	color: white;	
+	border-radius: 5px;
+	box-sizing: border-box;
+	padding: 3px;
+	transition-property:width;
+	transition-duration:0.2s;
+	
+}
+#provee{
+	position: relative;
+	text-decoration: none;
+	display: block;
+	width: 85px;
+	height: 25px;
+	margin-left: 5px;
+	top: 14px;
+	font-size: 1em;		
+	color: white;	
+	border-radius: 5px;
+	box-sizing: border-box;
+	padding: 3px;
+	transition-property:width;
+	transition-duration:0.2s;
+	
+}
+#usua{
+	position: relative;
+	text-decoration: none;
+	display: block;
+	width: 85px;
+	height: 25px;
+	margin-left: 5px;
+	top: 16px;
+	font-size: 1em;		
+	color: white;	
+	border-radius: 5px;
+	box-sizing: border-box;
+	padding: 3px;
+	transition-property:width;
+	transition-duration:0.2s;
+	
+}
+#emp{
+	position: relative;
+	text-decoration: none;
+	display: block;
+	width: 85px;
+	height: 25px;
+	margin-left: 5px;
+	top: 18px;
+	font-size: 1em;		
+	color: white;	
+	border-radius: 5px;
+	box-sizing: border-box;
+	padding: 3px;
+	transition-property:width;
+	transition-duration:0.2s;
+	
+}
+#cat{
+	position: relative;
+	text-decoration: none;
+	display: block;
+	width: 85px;
+	height: 25px;
+	margin-left: 5px;
+	top: 20px;
+	font-size: 1em;		
+	color: white;	
+	border-radius: 5px;
+	box-sizing: border-box;
+	padding: 3px;
+	transition-property:width;
+	transition-duration:0.2s;
+	
+}
+#tipo_usua{
+	position: relative;
+	text-decoration: none;
+	display: block;
+	width: 100px;
+	height: 25px;
+	margin-left: 5px;
+	top: 22px;
+	font-size: 1em;		
+	color: white;	
+	border-radius: 5px;
+	box-sizing: border-box;
+	padding: 3px;
+	transition-property:width;
+	transition-duration:0.2s;
+		
+}
+#tipo_pago{
+	position: relative;
+	text-decoration: none;
+	display: block;
+	width: 85px;
+	height: 25px;
+	margin-left: 5px;
+	top: 24px;
+	font-size: 1em;		
+	color: white;	
+	border-radius: 5px;
+	box-sizing: border-box;
+	padding: 3px;
+	transition-property:width;
+	transition-duration:0.2s;
+	
+}
+#estatu_pedido{
+	position: relative;
+	text-decoration: none;
+	display: block;
+	width: 85px;
+	height: 25px;
+	margin-left: 5px;
+	top: 26px;
+	font-size: 1em;		
+	color: white;	
+	border-radius: 5px;
+	box-sizing: border-box;
+	padding: 3px;
+	transition-property:width;
+	transition-duration:0.2s;
+	
+}
+
+
+
+div#contenedorGeneral a:hover{
+  color: black; 
+  width: 150px; 
+  background-color: #C0C0C0; 
+
+}

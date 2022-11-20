@@ -1,0 +1,502 @@
+*{
+	margin: 0; 
+	padding: 0;   
+	
+} 
+   
+body{  
+	font-family: Arial, Helvetica, Verdana;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#cfe7fa+0,6393c1+100;Grey+Blue+3D */
+	background-color: rgb(207,231,250); /* Old browsers */
+	background-color: -moz-linear-gradient(top,  rgba(207,231,250,1) 0%, rgba(99,147,193,1) 100%); /* FF3.6-15 */
+	background-color: -webkit-linear-gradient(top,  rgba(207,231,250,1) 0%,rgba(99,147,193,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background-color: linear-gradient(to bottom,  rgba(207,231,250,1) 0%,rgba(99,147,193,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cfe7fa', endColorstr='#6393c1',GradientType=0 ); /* IE6-9 */
+} 
+
+div#contenedorGeneral{     
+	position: relative;		  
+	width: 985px; 
+	height: 580px;			
+	border-radius: 5px;		
+	background-color: #D3D3D3;		
+	
+ 
+}
+
+#msj{
+	position: relative;	
+	display: inline-block;
+	width: 170px;
+	margin-left: 10px;
+	font-size: 0.8em;
+	background-color: #D3D3D3;
+}
+
+
+div#frmRegistro{
+	position: relative;
+	top: 5px;
+	margin-left: 5px;
+	width: 970px;
+	height: 570px;
+	background-color: white;	
+	border-radius: 2px;
+	box-sizing:border-box;
+	padding: 20px;
+
+}
+#fset_factura{
+	position: relative;
+	width: 99%;
+	height: 185px;
+	top: -15px;
+	border-radius: 5px;
+
+}
+#fset_pantalla{
+	position: relative;
+	width: 170px;
+	height: 120px;
+	border-radius: 5px;
+	top: -160px;
+	float: right;
+	margin-right: 10px;
+}
+#inf_pantalla{	
+	box-sizing:border-box;
+	padding: 0.5em;
+	font-size: 0.8em;
+}
+#subtotal_txt{	
+	font-size: 0.7em;
+	margin-left: 10px;
+	
+	
+}
+#subtotal{	
+	font-size: 0.7em;
+	margin-left: 5px;
+	color: red;	
+}
+#itebis_txt{	
+	font-size: 0.7em;
+	margin-left: 10px;
+	
+}
+#itebis{	
+	font-size: 0.7em;
+	margin-left: 5px;
+	color: red;	
+}
+#total_txt{	
+	font-size: 0.7em;
+	margin-left: 10px;
+	
+	
+}
+#total{	
+	font-size: 0.7em;
+	margin-left: 5px;
+	color: red;	
+}
+.facturacion{
+	display: inline-block;
+	width: 80px;		
+}
+
+
+
+
+
+#inf_factura{
+	box-sizing:border-box;
+	padding: 0.5em;
+	font-size: 0.8em;
+}
+#nuevo_cliente{
+	width: 60px;
+	height: 21px;
+	font-size: 0.8em;
+	margin-left: 5px;
+	
+	
+}
+
+#no_factura{	
+	font-size: 0.8em;
+	margin-left: 40px;
+
+}
+#no{	
+	font-size: 0.8em;
+	margin-left: 5px;
+	color: red;
+	
+}
+
+#nombre{	
+	font-size: 0.8em;
+	margin-left: 10px;
+	
+}
+#nombre_pro{	
+	font-size: 0.8em;
+	margin-left: 5px;
+	color: red;	
+}
+#stock_txt{	
+	font-size: 0.8em;
+	margin-left: 10px;	
+}
+#stock{	
+	font-size: 0.8em;
+	margin-left: 5px;
+	color: red;	
+}
+#precio_txt{	
+	font-size: 0.8em;
+	margin-left: 10px;	
+}
+#precio{	
+	font-size: 0.8em;
+	margin-left: 5px;
+	color: red;	
+}
+#cantidad_ordenar{	
+	width: 110px;
+	margin-bottom: 30px;
+	margin-left: -5px;
+}
+#importe_txt{	
+	font-size: 0.8em;
+	margin-left: 10px;	
+}
+#importe{	
+	font-size: 0.8em;
+	margin-left: 5px;
+	color: red;	
+}
+#noregistro_txt{	
+	font-size: 0.8em;
+	margin-left: 10px;	
+}
+#noregistro{	
+	font-size: 0.8em;
+	margin-left: 5px;
+	color: red;	
+}
+
+
+
+#fset_detalle_factura{
+	position: relative;
+	width: 99%;
+	height: 350px;
+	border-radius: 5px;	
+	top: -10px;
+}
+#inf_detalle_factura{
+	box-sizing:border-box;
+	padding: 0.5em;
+	font-size: 0.8em;
+}
+#fset_pago{
+	position: relative;
+	top: -345px;
+	width: 250px;
+	height: 230px;
+	border-radius: 5px;
+	margin-left: 650px;
+		
+}
+#inf_pago{
+	box-sizing:border-box;
+	padding: 0.5em;
+	font-size: 0.8em;
+}
+#opcion_pago{
+	position: relative;
+	width: 130px;
+	margin-left: 3px;
+	
+}
+#pagar{
+	position: relative;	
+	top: 20px;
+	width: 60px;
+	margin-right: 18px;
+	float: right;
+}
+
+.pagos{	
+	display: inline-block;
+	width: 90px;	 
+	font-size: 0.7em;
+	margin-left: 5px;
+}
+
+#monto{
+	position: relative;
+	top: 2px;
+	margin-left: 6px;
+	width: 80px;
+}
+#devuelta{
+	position: relative;
+	display: inline-block;
+	top: 14px;
+	margin-left: 6px;
+	width: 130px;
+	height: 40px;
+	box-sizing:border-box;
+	padding: 5px;
+	background-color: #D3D3D3;
+	font-size: 20px;
+}
+
+
+
+#caja_imprimir{
+	position: relative;	
+	top: 60px;
+	width: 130px;
+	height: 40px;	
+	background-color: #D3D3D3;
+	box-sizing: border-box;
+	padding: 10px;
+	margin-left: 5px;	
+
+}
+#imprimir{
+	text-decoration: none;
+	
+}
+#imprimir:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.nombre_campo{		
+	display:inline-block;
+	width: 110px;	
+	font-size: 0.8em;
+	margin-left: 10px;
+	margin-right: 5px;
+}
+#telefono{
+	width: 110px;
+	margin-bottom: 2px;
+}
+#nombre_cliente{
+	width: 200px;
+	margin-bottom: 15px;
+}
+#producto{
+	width: 110px;
+	margin-bottom: 2px;
+	
+}
+#anadir_items{
+	width: 90px;
+	margin-left: 5px;
+	
+	
+}
+
+#tdetalle_factura{	
+	position: relative;
+	margin-left: 10px;
+	border-collapse: collapse;
+
+}
+
+
+
+/*Estilos para los encavezados*/
+#hid_factura{
+	font-size: 0.7em;
+	font-style: bold;
+	text-align: center;
+}
+#hcodigo_barra{
+	font-size: 0.7em;
+	font-style: bold;
+	text-align: center;
+}
+#hnombre{
+	font-size: 0.7em;
+	font-style: bold;
+	text-align: center;
+}
+#hprecio_venta{
+	font-size: 0.7em;
+	font-style: bold;
+	text-align: center;
+}
+#hcantidad{
+	font-size: 0.7em;
+	font-style: bold;
+	text-align: center;
+}
+#himporte{
+	font-size: 0.7em;
+	font-style: bold;
+	text-align: center;
+}
+
+
+/*Estilos para los input de datos*/
+#did_factura{
+	font-size: 0.6em;		
+}
+#dcodigo_barra{
+	font-size: 0.6em;		
+}
+#dnombre{
+	font-size: 0.6em;	
+}
+#dprecio_venta{
+	font-size: 0.6em;	
+}
+#dcantidad{
+	font-size: 0.6em;	
+}
+#dimporte{
+	font-size: 0.6em;	
+}
+
+
+/*Estilos para todos los input*/
+#hid_factura, #did_factura{
+	width: 60px;	
+}
+#hcodigo_barra, #dcodigo_barra{
+	width: 100px;	
+}
+#hnombre, #dnombre{
+	width: 144px;
+}
+#hprecio_venta, #dprecio_venta{
+	width: 70px;
+}
+#hcantidad, #dcantidad{
+	width: 80px;
+}
+#himporte, #dimporte{
+	width: 80px;
+}
+
+
+
+div#anterior{
+	position: relative;			
+	height: 17px;
+	width: 60px;	
+	color: #2F4F4F;	
+	font-size: .7em;
+	top: 10px;	
+	text-align: center;	
+	margin-right: 5px;
+	border-radius: 1px;
+	background-color: #D3D3D3;
+}
+.flecha_anterior:after{
+	content:'\2039';
+	color: #2F4F4F;
+	margin-right: 1px;
+}
+div#anterior:hover{
+	color: #0000FF;
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+
+div#siguiente{
+	position: relative;	
+	top: 10px;
+	width: 60px;	
+	height: 17px;
+	text-align: center;	
+	color: #2F4F4F;	
+	font-size: .7em;
+	border-radius: 1px;
+	background-color: #D3D3D3;
+}
+.flecha_siguiente:after{
+	content:'\203A';
+	color: #2F4F4F;
+	margin-left: 1px;
+}
+div#siguiente:hover{
+	color: #0000FF;
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+
+
+/*Estilos para el dialogo*/
+
+dialog{
+	position: absolute;
+	top: 80px;
+	width: 400px;
+	height: 300px;
+	margin: 0 auto;
+	box-sizing:border-box;
+	padding: 10px;	
+	border-radius: 2px;
+}
+#texto_cli{
+	display: inline-block;
+	position: relative;
+	margin-bottom: 5px;
+}
+#ingresar{
+	float: left;
+	margin-right: 5px;
+	position: relative;
+	top: 10px;
+}
+#cerrar{
+	position: relative;
+	top: 10px;	
+	
+}
+#msj_nuevo_cliente{
+	position: relative;	
+	display: inline-block;
+	top: 10px;
+	width: 200px;
+	margin-left: 10px;
+	font-size: 0.8em;
+	background-color: yellow;
+}
+
+#id_cliente{
+	width: 80px;
+}
+#nombre_cliente{
+	
+}
+#direccion_cliente{
+	width: 170px;
+	height: 60px;
+	resize:none;
+}

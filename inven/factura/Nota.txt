@@ -1,0 +1,3 @@
+Este es el móodulo que a traves de un abusqueda genera uno y/o en su defecto todas las facturas.
+
+Al elegir una tendras la oportunidad de imprimirla y, si la elijes todas solo podras verlas.

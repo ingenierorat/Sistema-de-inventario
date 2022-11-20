@@ -1,0 +1,260 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: Arial, Helvetica, Verdana;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#cfe7fa+0,6393c1+100;Grey+Blue+3D */
+	background-color: rgb(207,231,250); /* Old browsers */
+	background-color: -moz-linear-gradient(top,  rgba(207,231,250,1) 0%, rgba(99,147,193,1) 100%); /* FF3.6-15 */
+	background-color: -webkit-linear-gradient(top,  rgba(207,231,250,1) 0%,rgba(99,147,193,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background-color: linear-gradient(to bottom,  rgba(207,231,250,1) 0%,rgba(99,147,193,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cfe7fa', endColorstr='#6393c1',GradientType=0 ); /* IE6-9 */
+}
+ 
+div#contenedorGeneral{	
+	width: 985px;
+	height: 600px;	
+	border-radius: 5px;
+	background-color: #D3D3D3;
+}
+
+div#consulta{
+	position: relative;
+	top: 5px;
+	margin-left: 5px;
+	width: 450px;
+	height: 85px;	
+	background-color: white;	
+	box-sizing:border-box;
+	padding: 10px;	
+	border-radius: 5px;
+
+}
+#titulo_panel{
+	width: 150px;
+	height: 20px;
+	text-align: center;
+	border-radius: 2px;
+	font-size: 0.9em;
+	background-color: #D3D3D3;
+}
+
+p{
+	position: relative;
+	margin-bottom: 5px;
+}
+
+#lblopcion{
+	position: relative;	
+	color: #2F4F4F;
+	font-size: .8em;	
+}
+
+#btnbuscar{
+	width: 50px;
+	font-size: 0.7em;
+	height: 20px;
+	text-align: center;
+}
+#btnlimpiar{
+	width: 50px;
+	font-size: 0.7em;
+	height: 20px;
+}
+
+
+div#contenedorTablaUs{
+	position: relative;
+	width: 970px;
+	height: 490px;
+	margin-left: 5px;	
+	background-color: white;
+	top: 10px;	
+	border-radius: 5px;
+	box-sizing:border-box;
+	padding: 10px;	
+}
+
+table{
+	border-collapse: collapse;	
+}
+
+div#anterior{
+	position: relative;			
+	height: 17px;
+	width: 60px;	
+	color: #2F4F4F;	
+	font-size: .7em;
+	top: 15px;
+	float: left;
+	text-align: center;	
+	margin-right: 5px;
+	border-radius: 1px;
+	background-color: #D3D3D3;
+}
+.flecha_anterior:after{
+	content:'\2039';
+	color: #2F4F4F;
+	margin-right: 1px;
+}
+div#anterior:hover{
+	color: #0000FF;
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+
+div#siguiente{
+	position: relative;
+	float: left;
+	top: 15px;
+	width: 60px;	
+	height: 17px;
+	text-align: center;	
+	color: #2F4F4F;	
+	font-size: .7em;
+	border-radius: 1px;
+	background-color: #D3D3D3;
+}
+.flecha_siguiente:after{
+	content:'\203A';
+	color: #2F4F4F;
+	margin-left: 1px;
+}
+div#siguiente:hover{
+	color: #0000FF;
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+
+
+/*Estilos para los encavezados*/
+#codigo{
+	font-size: 0.7em;
+	font-style: bold;
+	text-align: center;
+}
+#id_tipo_usuario{
+	font-size: 0.7em;
+	font-style: bold;
+	text-align: center;
+}
+#nombre{
+	font-size: 0.7em;
+	font-style: bold;
+	text-align: center;
+}
+#apellidos{
+	font-size: 0.7em;
+	font-style: bold;
+	text-align: center;
+}
+#usuario{
+	font-size: 0.7em;
+	font-style: bold;
+	text-align: center;
+}
+#clave{
+	font-size: 0.7em;
+	font-style: bold;
+	text-align: center;
+}
+#fecha_ingreso{
+	font-size: 0.7em;
+	font-style: bold;
+	text-align: center;
+}
+
+
+/*Estilos para los input de datos*/
+#dcodigo{
+	font-size: 0.6em;		
+}
+#did_tipo_usuario{
+	font-size: 0.6em;		
+}
+#dnombre{
+	font-size: 0.6em;	
+}
+#dapellidos{
+	font-size: 0.6em;	
+}
+#dusuario{
+	font-size: 0.6em;	
+}
+#dclave{
+	font-size: 0.6em;	
+}
+#dfecha_ingreso{
+	font-size: 0.6em;		
+}
+
+
+
+/*Estilos para todos los input*/
+#codigo, #dcodigo{
+	width: 40px;	
+}
+#id_tipo_usuario, #did_tipo_usuario{
+	width: 60px;	
+}
+#nombre, #dnombre{
+	width: 100px;
+}
+#apellidos, #dapellidos{
+	width: 110px;
+}
+#usuario, #dusuario{
+	width: 100px;
+}
+#clave, #dclave{
+	width: 130px;
+}
+#fecha_ingreso, #dfecha_ingreso{
+	width: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,437 @@
+*{
+	margin: 0;
+	padding: 0; 
+} 
+ 
+body{  
+	font-family: Arial, Helvetica, Verdana;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#cfe7fa+0,6393c1+100;Grey+Blue+3D */
+	background-color: rgb(207,231,250); /* Old browsers */
+	background-color: -moz-linear-gradient(top,  rgba(207,231,250,1) 0%, rgba(99,147,193,1) 100%); /* FF3.6-15 */
+	background-color: -webkit-linear-gradient(top,  rgba(207,231,250,1) 0%,rgba(99,147,193,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background-color: linear-gradient(to bottom,  rgba(207,231,250,1) 0%,rgba(99,147,193,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cfe7fa', endColorstr='#6393c1',GradientType=0 ); /* IE6-9 */
+}
+
+div#contenedorGeneral{    
+	position: relative;		  
+	width: 800px; 
+	height: 580px;	
+	background-color: #D3D3D3;	
+	
+}
+
+div#ingreso{
+	position: relative;
+	top: 2px;	
+	width: 600px;
+	height: 20px;	
+	border-radius: 2px;	
+	box-sizing:border-box;
+	padding: 2px;
+	font-size: 0.8em;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#cfe7fa+0,6393c1+100;Grey+Blue+3D */
+	background-color: rgb(207,231,250); /* Old browsers */
+	background-color: -moz-linear-gradient(top,  rgba(207,231,250,1) 0%, rgba(99,147,193,1) 100%); /* FF3.6-15 */
+	background-color: -webkit-linear-gradient(top,  rgba(207,231,250,1) 0%,rgba(99,147,193,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background-color: linear-gradient(to bottom,  rgba(207,231,250,1) 0%,rgba(99,147,193,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cfe7fa', endColorstr='#6393c1',GradientType=0 ); /* IE6-9 */
+	
+	
+}
+
+div#frmRegistro{
+	position: relative;	
+	width: 600px;
+	height: 490px;
+	background-color: white;	
+	top: 5px;
+	border-radius: 2px;
+	box-sizing:border-box;
+	padding: 20px;
+
+}
+#fset_pedido{
+	width: 270px;
+	height: 100px;
+	border-radius: 5px;
+}
+#inf_pedido{
+	box-sizing:border-box;
+	padding: 0.5em;
+	font-size: 0.8em;
+}
+
+#fset_detalle{
+	width: 300px;
+	height: 190px;
+	border-radius: 5px;
+}
+#inf_detalle{
+	box-sizing:border-box;
+	padding: 0.5em;
+	font-size: 0.8em;
+}
+
+#tablaRegistroCrearpedinf{	
+	position: relative;
+	top: -3px;
+	margin-left: 5px;	
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#cfe7fa+0,6393c1+100;Grey+Blue+3D */
+	background-color: rgb(207,231,250); /* Old browsers */
+	background-color: -moz-linear-gradient(top,  rgba(207,231,250,1) 0%, rgba(99,147,193,1) 100%); /* FF3.6-15 */
+	background-color: -webkit-linear-gradient(top,  rgba(207,231,250,1) 0%,rgba(99,147,193,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background-color: linear-gradient(to bottom,  rgba(207,231,250,1) 0%,rgba(99,147,193,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cfe7fa', endColorstr='#6393c1',GradientType=0 ); /* IE6-9 */
+	
+
+}
+#tablaRegistroCrearpeddet{	
+	position: relative;
+	top: -3px;
+	margin-left: 5px;	
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#cfe7fa+0,6393c1+100;Grey+Blue+3D */
+	background-color: rgb(207,231,250); /* Old browsers */
+	background-color: -moz-linear-gradient(top,  rgba(207,231,250,1) 0%, rgba(99,147,193,1) 100%); /* FF3.6-15 */
+	background-color: -webkit-linear-gradient(top,  rgba(207,231,250,1) 0%,rgba(99,147,193,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background-color: linear-gradient(to bottom,  rgba(207,231,250,1) 0%,rgba(99,147,193,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cfe7fa', endColorstr='#6393c1',GradientType=0 ); /* IE6-9 */
+	
+
+}
+#tablaRegistroEliminar{
+	background-color: rgb(207,231,250); /* Old browsers */
+	background-color: -moz-linear-gradient(top,  rgba(207,231,250,1) 0%, rgba(99,147,193,1) 100%); /* FF3.6-15 */
+	background-color: -webkit-linear-gradient(top,  rgba(207,231,250,1) 0%,rgba(99,147,193,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background-color: linear-gradient(to bottom,  rgba(207,231,250,1) 0%,rgba(99,147,193,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cfe7fa', endColorstr='#6393c1',GradientType=0 ); /* IE6-9 */
+
+ 
+
+}
+#tablaRegistroIngresar{
+	position: relative;
+	top: 5px;
+	border-collapse: collapse;
+}
+
+
+.lbl_registro{		
+	display: inline-block;
+	width: 100px;
+	font-size: 0.8em;
+
+}
+
+#ingresar{
+	position: relative;
+	top: 8px;
+	width: 95px;	
+	float: left;
+	font-size: 0.7em;
+	margin-right: 5px;
+}
+
+#limpiar{
+	position: relative;
+	top: 8px;
+	width: 75px;
+	float: left;
+	font-size: 0.7em;
+	
+}
+
+/*Estilos para la segunda tabla*/
+#decodigo{
+	width: 180px;
+	
+}
+#deeliminar{
+position: relative;		
+width: 90px;
+font-size: 0.7em;		
+	 
+}
+#buscar{
+position: relative;		
+width: 90px;
+font-size: 0.7em;		
+	
+}
+#msj{
+	display: inline-block;
+	position: relative;	
+	font-size: 0.7em;
+	margin-left: 20px;
+	background-color: #D3D3D3;	
+	
+}
+
+.hr{
+	position: relative;	
+	width: 579px;		
+    border-top: 1px dashed #000;
+    background-color: black;
+    margin-left: 15px;
+    top: -60px;		
+}
+
+#opciones{
+	position: relative;
+	width: 450px;
+	height: 40px;	
+	background-color: #D3D3D3;
+	border-radius: 2px;
+	top: -50px;
+	left: 15px;
+}
+.opcion{
+	position: relative;	
+	width: 85px;
+	margin-left: 15px;
+	border-radius: 2px;
+	top: 11px;
+}
+#ingresar_pedido_sistema{
+	position: relative;	
+	width: 120px;
+	margin-left: 15px;
+	border-radius: 2px;
+	top: 11px;
+
+}
+
+
+/*Estilos para todos los input del panel*/
+#did_pedido{
+	width: 50px;	
+}
+#did_proveedor{
+	width: 50px;	
+}
+#dfecha{
+	width: 140px;
+}
+#did_pedido_detalle{
+	width: 50px;
+}
+#did_producto{
+	width: 40px;
+}
+#dcantidad{
+	width: 70px;
+}
+#dprecio{
+	width: 70px;
+}
+#ddescuento{
+	width: 50px;
+}
+#dimporte{
+	width: 70px;
+}
+#destatus{
+	width: 140px;
+}
+
+
+/*Estilos de la tabla ingresar pedido al sistema*/
+#diid_pedido{
+	width: 100px;	
+}
+
+/*Estilos de las columnas*/
+#hid_pedido_detalle{
+	font-size: 0.7em;
+	font-style: bold;
+	text-align: center;
+	width: 55px;
+}
+#hid_producto{
+	font-size: 0.7em;
+	font-style: bold;
+	text-align: center;
+	width: 60px;
+}
+#hcantidad{
+	font-size: 0.7em;
+	font-style: bold;
+	text-align: center;
+	width: 55px;
+}
+#hprecio{
+	font-size: 0.7em;
+	font-style: bold;
+	text-align: center;
+	width: 55px;
+}
+#hdescuento{
+	font-size: 0.7em;
+	font-style: bold;
+	text-align: center;
+	width: 60px;
+}
+#himporte{
+	font-size: 0.7em;
+	font-style: bold;
+	text-align: center;
+	width: 55px;
+}
+#hestatus{
+	font-size: 0.7em;
+	font-style: bold;
+	text-align: center;
+	width: 60px;
+}
+
+#hregistrar_linea{
+	font-size: 0.7em;
+	font-style: bold;
+	text-align: center;
+	width: 90px;
+}
+
+
+
+/*Estilos de las celdas de datos*/
+#diid_pedido_detalle{
+	width: 55px;
+	font-size: 0.6em;
+}
+#diid_producto{
+	width: 60px;
+	font-size: 0.6em;
+}
+#dicantidad{
+	width: 55px;
+	font-size: 0.6em;
+}
+#diprecio{
+	width: 55px;
+	font-size: 0.6em;
+}
+#didescuento{
+	width: 60px;
+	font-size: 0.6em;
+}
+#diimporte{
+	width: 55px;
+	font-size: 0.6em;
+}
+#diestatus{
+	width: 60px;
+	font-size: 0.6em;
+}
+#diregistrar_linea{
+	position: relative;
+	top: 1px;
+	margin-left: 20px;
+	width: 70px;
+	height: 17px;
+	text-align: center;
+	border-radius: 2px;
+	font-size: 0.6em;
+}
+
+
+/*Estilos para el boton de registrar lineas*/
+#cero{
+	position: relative;
+	top: 1px;
+	margin-left: 4px;
+	width: 92px;
+	height: 17px;
+	text-align: center;
+	border-radius: 2px;
+	font-size: 0.6em;
+}
+#uno{
+	position: relative;
+	top: 1px;
+	margin-left: 4px;
+	width: 92px;
+	height: 17px;
+	text-align: center;
+	border-radius: 2px;
+	font-size: 0.6em;
+}
+#dos{
+	position: relative;
+	top: 1px;
+	margin-left: 4px;
+	width: 92px;
+	height: 17px;
+	text-align: center;
+	border-radius: 2px;
+	font-size: 0.6em;
+}
+#tres{
+	position: relative;
+	top: 1px;
+	margin-left: 4px;
+	width: 92px;
+	height: 17px;
+	text-align: center;
+	border-radius: 2px;
+	font-size: 0.6em;
+}
+#cuatro{
+	position: relative;
+	top: 1px;
+	margin-left: 4px;
+	width: 92px;
+	height: 17px;
+	text-align: center;
+	border-radius: 2px;
+	font-size: 0.6em;
+}
+#cinco{
+	position: relative;
+	top: 1px;
+	margin-left: 4px;
+	width: 92px;
+	height: 17px;
+	text-align: center;
+	border-radius: 2px;
+	font-size: 0.6em;
+}
+#seis{
+	position: relative;
+	top: 1px;
+	margin-left: 4px;
+	width: 92px;
+	height: 17px;
+	text-align: center;
+	border-radius: 2px;
+	font-size: 0.6em;
+}
+#siete{
+	position: relative;
+	top: 1px;
+	margin-left: 4px;
+	width: 92px;
+	height: 17px;
+	text-align: center;
+	border-radius: 2px;
+	font-size: 0.6em;
+}
+#ocho{
+	position: relative;
+	top: 1px;
+	margin-left: 4px;
+	width: 92px;
+	height: 17px;
+	text-align: center;
+	border-radius: 2px;
+	font-size: 0.6em;
+}
+#nueve{
+	position: relative;
+	top: 1px;
+	margin-left: 4px;
+	width: 92px;
+	height: 17px;
+	text-align: center;
+	border-radius: 2px;
+	font-size: 0.6em;
+}

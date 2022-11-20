@@ -1,0 +1,204 @@
+*{
+	margin: 0; 
+	padding: 0;  
+} 
+
+body{ 
+	font-family: Arial, Helvetica, Verdana;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#cfe7fa+0,6393c1+100;Grey+Blue+3D */
+	background-color: rgb(207,231,250); /* Old browsers */
+	background-color: -moz-linear-gradient(top,  rgba(207,231,250,1) 0%, rgba(99,147,193,1) 100%); /* FF3.6-15 */
+	background-color: -webkit-linear-gradient(top,  rgba(207,231,250,1) 0%,rgba(99,147,193,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background-color: linear-gradient(to bottom,  rgba(207,231,250,1) 0%,rgba(99,147,193,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cfe7fa', endColorstr='#6393c1',GradientType=0 ); /* IE6-9 */
+}
+
+div#contenedorGeneral{     
+	position: relative;		  
+	width: 800px; 
+	height: 580px;	
+	background-color: #D3D3D3;	
+	
+}
+
+#tb_detalles_abst{
+	position: relative;	
+	margin-left: 10px;
+	top: 10px;
+	border-collapse: collapse;
+}
+
+#lbl_opcion{
+	position: absolute;
+	display: inline-block;
+	top: 20px;
+	width: 180px;
+	margin-left: 10px;		
+	font-size: 0.9em;
+	background-color: yellow;
+	padding-left: 2px;
+
+}
+#buscar{
+	position: absolute;
+	margin-top: 19px;
+	margin-left: 196px;
+	height: 34px;
+	width: 55px;
+}
+#msj{
+	display: inline-block;
+	position: absolute;	
+	top: 26px;
+	font-size: 0.8em;
+	margin-left: 280px;
+	background-color: #D3D3D3;	
+	
+}
+
+/*Configuracioón de los campo detalles*/
+#fset_detalle_abst{
+	position: relative;
+	top: 70px;
+	margin-left: 10px;
+	width: 770px;
+	height: 480px;
+	border-radius: 5px;
+}
+#inf_detalle_abst{
+	box-sizing:border-box;
+	padding: 0.5em;
+	font-size: 0.8em;
+}
+
+
+div#anterior{
+	position: relative;			
+	height: 17px;	
+	width: 60px;	
+	color: #2F4F4F;	
+	font-size: 0.7em;
+	top: 15px;	
+	text-align: center;	
+	margin-right: 5px;
+	border-radius: 1px;
+	background-color: #D3D3D3;
+}
+.flecha_anterior:after{
+	content:'\2039';
+	color: #2F4F4F;
+	margin-right: 1px;
+}
+div#anterior:hover{
+	color: #0000FF;
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+
+div#siguiente{
+	position: relative;	
+	top: 15px;
+	width: 60px;	
+	height: 17px;
+	text-align: center;	
+	color: #2F4F4F;	
+	font-size: 0.7em;
+	border-radius: 1px;
+	background-color: #D3D3D3;
+}
+.flecha_siguiente:after{
+	content:'\203A';
+	color: #2F4F4F;
+	margin-left: 1px;
+}
+div#siguiente:hover{
+	color: #0000FF;
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+/*Configuración de los encabezados de la tabla detalles ventas*/
+#hid_producto{
+	width: 70px;
+	font-size: 0.8em;
+	font-style: bold;
+
+}
+#hcodigo_barra{
+	width: 80px;
+	font-size: 0.8em;
+	font-style: bold;
+	
+}
+#hnombre{
+	width: 160px;
+	font-size: 0.8em;
+	font-style: bold;
+	
+}
+#hdescripcion{
+	width: 170px;
+	font-size: 0.8em;
+	font-style: bold;
+	
+}
+#hsuplidor{
+	width: 150px;
+	font-size: 0.8em;
+	font-style: bold;
+	
+}
+#hstock_min{
+	width: 60px;
+	font-size: 0.8em;
+	font-style: bold;
+	
+}
+#hstock{
+	width: 40px;
+	font-size: 0.8em;
+	font-style: bold;
+	
+}
+
+/*Configuración de las celdas de datos tabla detalles ventas*/
+#did_producto{
+	width: 70px;
+	font-size: 0.7em;	
+
+}
+#dcodigo_barra{
+	width: 80px;
+	font-size: 0.7em;	
+	
+}
+#dnombre{
+	width: 160px;
+	font-size: 0.7em;
+	
+	
+}
+#ddescripcion{
+	width: 170px;
+	font-size: 0.7em;
+	
+	
+}
+#dsuplidor{
+	width: 150px;
+	font-size: 0.7em;
+	
+	
+}
+#dstock_min{
+	width: 60px;
+	font-size: 0.7em;	
+	
+}
+#dstock{
+	width: 40px;
+	font-size: 0.7em;	
+	
+}
+

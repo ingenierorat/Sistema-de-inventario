@@ -1,0 +1,21 @@
+/* RESETEAR TODOS LOS MARGENES */
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/* ESTILOS PARA EL COLOR DE FONDO*/
+body{
+	 
+}
+
+div#contenedorGeneral{	
+	position: relative;
+	top: 10px;
+	width: 950px;
+	height: 580px;	
+	margin-left: 10px;
+	background-color: #708090;
+	border-radius: 5px;	
+	
+}

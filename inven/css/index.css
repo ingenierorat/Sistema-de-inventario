@@ -1,0 +1,251 @@
+*{
+	margin: 0; 
+	padding: 0;   
+}
+
+/* CUERPO DE LA PANTALLA*/  
+body{
+	font-family: Arial, Helvetica, Verdana;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#cfe7fa+0,6393c1+100;Grey+Blue+3D */
+	background-color: rgb(207,231,250); /* Old browsers */
+	background-color: -moz-linear-gradient(top,  rgba(207,231,250,1) 0%, rgba(99,147,193,1) 100%); /* FF3.6-15 */
+	background-color: -webkit-linear-gradient(top,  rgba(207,231,250,1) 0%,rgba(99,147,193,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background-color: linear-gradient(to bottom,  rgba(207,231,250,1) 0%,rgba(99,147,193,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cfe7fa', endColorstr='#6393c1',GradientType=0 ); /* IE6-9 */
+	}
+/* CONTENEDOR GENERAL*/ 
+div#contenedorGeneral{  
+	position: relative; 
+	top: 5px;
+	width: 1300px;
+	height: 710px;	
+	margin-left: 20px;
+	background-color: #708090;
+	border-radius: 10px;
+
+
+}
+/* ENCABEZADO DE LA APLICACIÓN*/
+header{
+	position: relative;
+	top: 5px;
+	width: 98%;
+	height: 78px;
+	margin-left: 10px;	
+	border-radius: 2px;		
+	background-color: #D3D3D3;
+}
+
+/* FECHA DEL SISTEMA*/
+div#fecha{
+	position: relative;
+	margin-right: 5px;
+	width: 230px;
+	height: 25px;
+	float: right;
+	font-size: .8em;
+	box-sizing: border-box;
+	padding: 0 10px;
+	line-height: 1.7em;	
+	color: white;	
+	top: 2px;
+	margin-bottom: 3px;
+	background-color: #708090;
+	
+	
+}
+/* PANEL DE BIENVENIDA AL USUARIO LOGUADO*/
+div#panelUser{
+	position: relative;
+	clear: right;
+	width: 230px;
+	margin-right: 5px;
+	height: 46px;
+	float: right;	
+	top: 1px;
+	border-radius: 2px;
+	background-color: #708090;	
+
+}
+
+/* MENSAJE A MOSTRAR AL LOGUEARSE*/
+.bienvenido{
+	position: relative;
+	padding: 10px;
+	box-sizing:border-box;
+	top: 2px;
+	font-size: .8em;
+	color: white;	
+}
+/* BUTTON DE CERRAR SESION*/
+.sesion{
+position: relative;
+color: white;
+width: 100px;
+height: 16px;
+text-decoration: none;
+font-size: .8em;
+float: right;
+top: 1px;
+
+}
+
+/* EFECTO AL PASAR EL MAUSE ENCIMA DEL BUTTON*/
+.sesion:hover{
+	
+	color: #C0C0C0;
+}
+
+/* LINEA SEPARADORA DEL PANEL USUARIO*/
+.hr{
+	position: relative;
+	width: 90%;		
+    border-top: 1px dashed #000;
+    margin-left: 11px;
+	background-color: black;
+	top: 4px;
+	margin-bottom: 4px;
+	
+	
+}
+
+/* MENÚ DE NAVEGACIÓN*/
+nav{
+	position: relative;
+	top: 15px;
+	width: 110px;
+	height:300px;
+	margin-left: 10px;					
+	border-radius: 5px;
+	float: left;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#cfe7fa+0,6393c1+100;Grey+Blue+3D */
+	background-color: rgb(207,231,250); /* Old browsers */
+	background-color: -moz-linear-gradient(top,  rgba(207,231,250,1) 0%, rgba(99,147,193,1) 100%); /* FF3.6-15 */
+	background-color: -webkit-linear-gradient(top,  rgba(207,231,250,1) 0%,rgba(99,147,193,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background-color: linear-gradient(to bottom,  rgba(207,231,250,1) 0%,rgba(99,147,193,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cfe7fa', endColorstr='#6393c1',GradientType=0 ); /* IE6-9 */
+	
+
+}
+
+/* AQUI VA EL CONTENIDO A MOSTRAR DE CADA PANTALLA DEL SISTEMA*/
+iframe{
+	position: relative;
+	top: 15px;
+	width: 1160px;
+	height: 605px;
+	margin-left: 5px;	
+	background-color: #D3D3D3;	
+	border-radius: 5px;
+	float: left;
+
+	
+}
+
+
+
+/* PIE DE PÁGINA DE LA PANTALLA PRINCIPAL*/
+footer{
+	position: relative;
+	top: 10px;
+	width: 1300px;
+	height: 23px;
+	margin-left: 20px;
+	background-color: #D3D3D3;
+	border-radius: 5px;	
+	
+}
+
+/* DERECHO DE AUTOR DE LAS DIFERENTES PANTALLAS A UTILIZAR*/
+div#copyright{
+	position: relative;
+	top: 2px;
+	width: 97%;
+	height: 19px;
+	font-size: 0.7em;
+	text-align: center;
+	color: #2F4F4F;
+	box-sizing:border-box;
+	padding: 4px;
+	margin: 0 auto;
+	background-color: #708090;
+
+}
+
+
+/* ESTILOS GENERALES DEL MENÚ*/
+nav ul{
+	position: relative;
+	list-style: none;
+	padding: 0;
+	top: 15px;
+}
+
+nav li{	
+	line-height: 1.7rem;
+	position: relative;
+	display: block; 
+}
+
+nav a{  
+  text-decoration: none; 
+  display: block;
+  padding: 0 1em;  
+  box-sizing:border-box;  
+  font-size: 0.8em;
+  color: #2F4F4F;  
+  
+}
+
+nav a:hover{
+  background: #C0C0C0;  
+
+}
+
+nav ul ul{
+	margin-left: 3px;
+	display: none;
+	position: relative;
+	top: 5px;
+
+}
+
+nav .icon-home{
+	margin-right: 10px;
+	
+}
+
+
+/* ESTILOS DEL PRIMER NIVEL DEL MENÚ*/
+
+
+
+/* ESTILOS DEL SEGUNDO NUVEL DEL MENÚ*/
+nav li li{
+	background: #A0522D;
+}
+
+nav ul li ul a{
+	color: white;
+}
+
+nav li:hover .icon-home{
+	color: white;
+}
+nav li:hover .flecha:after{
+	content:'\2039';
+	color: white;
+}
+
+.flecha:after{
+	content:'\203A';
+	float: right;
+	margin-left: 10px;
+	transform: rotate(90deg);		
+
+}
+
+
+
+
+  

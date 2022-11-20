@@ -1,0 +1,248 @@
+*{
+	margin: 0;
+	padding: 0; 
+}  
+
+body{  
+	font-family: Arial, Helvetica, Verdana;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#cfe7fa+0,6393c1+100;Grey+Blue+3D */
+	background-color: rgb(207,231,250); /* Old browsers */
+	background-color: -moz-linear-gradient(top,  rgba(207,231,250,1) 0%, rgba(99,147,193,1) 100%); /* FF3.6-15 */
+	background-color: -webkit-linear-gradient(top,  rgba(207,231,250,1) 0%,rgba(99,147,193,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background-color: linear-gradient(to bottom,  rgba(207,231,250,1) 0%,rgba(99,147,193,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cfe7fa', endColorstr='#6393c1',GradientType=0 ); /* IE6-9 */
+}
+
+div#contenedorGeneral{     
+	position: relative;		  
+	width: 800px; 
+	height: 580px;	
+	background-color: #D3D3D3;	
+	
+}
+
+#lbl_opcion{
+	position: relative;
+	display: inline-block;
+	top: 5px;
+	width: 160px;
+	margin-left: 10px;		
+	font-size: 0.9em;
+	background-color: yellow;
+
+}
+#dia,#mes,#buscar,#opcion_venta{
+	position: relative;
+	top: 5px;
+}
+#msj{
+	display: inline-block;
+	position: relative;	
+	top: 5px;
+	font-size: 0.8em;
+	margin-left: 20px;
+	background-color: #D3D3D3;	
+	
+}
+
+#tb_descripcion{
+	position: relative;
+	top: 20px;
+	margin-left: 10px;
+	font-family: Arial, Helvetica, Verdana;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#cfe7fa+0,6393c1+100;Grey+Blue+3D */
+	background-color: rgb(207,231,250); /* Old browsers */
+	background-color: -moz-linear-gradient(top,  rgba(207,231,250,1) 0%, rgba(99,147,193,1) 100%); /* FF3.6-15 */
+	background-color: -webkit-linear-gradient(top,  rgba(207,231,250,1) 0%,rgba(99,147,193,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background-color: linear-gradient(to bottom,  rgba(207,231,250,1) 0%,rgba(99,147,193,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cfe7fa', endColorstr='#6393c1',GradientType=0 ); /* IE6-9 */
+}
+
+#tb_detalles_venta{
+	margin-left: 5px;
+	top: 10px;
+	border-collapse: collapse;
+}
+
+.lbl_descripcion{
+	display: inline-block;
+	width: 120px;
+	background-color: yellow;
+	font-size: 0.8em;
+}
+.lbl_cantidades{
+	display: inline-block;
+	font-size: 0.9em;
+	margin-left: 5px;
+}
+
+#fset_detalle_venta{
+	position: relative;
+	top: 30px;
+	margin-left: 10px;
+	width: 770px;
+	height: 425px;
+	border-radius: 5px;
+}
+#inf_detalle_venta{
+	box-sizing:border-box;
+	padding: 0.5em;
+	font-size: 0.8em;
+}
+
+
+div#anterior{
+	position: relative;			
+	height: 17px;	
+	width: 60px;	
+	color: #2F4F4F;	
+	font-size: 0.7em;
+	top: 15px;	
+	text-align: center;	
+	margin-right: 5px;
+	border-radius: 1px;
+	background-color: #D3D3D3;
+}
+.flecha_anterior:after{
+	content:'\2039';
+	color: #2F4F4F;
+	margin-right: 1px;
+}
+div#anterior:hover{
+	color: #0000FF;
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+
+div#siguiente{
+	position: relative;	
+	top: 15px;
+	width: 60px;	
+	height: 17px;
+	text-align: center;	
+	color: #2F4F4F;	
+	font-size: 0.7em;
+	border-radius: 1px;
+	background-color: #D3D3D3;
+}
+.flecha_siguiente:after{
+	content:'\203A';
+	color: #2F4F4F;
+	margin-left: 1px;
+}
+div#siguiente:hover{
+	color: #0000FF;
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+/*Configuración de los encabezados de la tabla detalles ventas*/
+#hid_factura{
+	width: 65px;
+	font-size: 0.8em;
+	font-style: bold;
+
+}
+#hcodigo_barra{
+	width: 90px;
+	font-size: 0.8em;
+	font-style: bold;
+	
+}
+#hdescripcion{
+	width: 180px;
+	font-size: 0.8em;
+	font-style: bold;
+	
+}
+#hitebis{
+	width: 40px;
+	font-size: 0.8em;
+	font-style: bold;
+	
+}
+#hporciento_venta{
+	width: 55px;
+	font-size: 0.8em;
+	font-style: bold;
+	
+}
+#hprecio_ingreso{
+	width: 90px;
+	font-size: 0.8em;
+	font-style: bold;
+	
+}
+#hprecio_venta{
+	width: 80px;
+	font-size: 0.8em;
+	font-style: bold;
+	
+}
+#hcantidad{
+	width: 55px;
+	font-size: 0.8em;
+	font-style: bold;
+	
+}
+#himporte{
+	width: 65px;
+	font-size: 0.8em;
+	font-style: bold;
+	
+}
+
+/*Configuración de las celdas de datos tabla detalles ventas*/
+#did_factura{
+	width: 65px;
+	font-size: 0.7em;	
+
+}
+#dcodigo_barra{
+	width: 90px;
+	font-size: 0.7em;	
+	
+}
+#ddescripcion{
+	width: 180px;
+	font-size: 0.7em;
+	
+	
+}
+#ditebis{
+	width: 40px;
+	font-size: 0.7em;
+	
+	
+}
+#dporciento_venta{
+	width: 55px;
+	font-size: 0.7em;
+	
+	
+}
+#dprecio_ingreso{
+	width: 90px;
+	font-size: 0.7em;
+	
+	
+}
+#dprecio_venta{
+	width: 80px;
+	font-size: 0.7em;
+	
+	
+}
+#dcantidad{
+	width: 55px;
+	font-size: 0.7em;
+	
+	
+}
+#dimporte{
+	width: 65px;
+	font-size: 0.7em;	
+	
+}
+
